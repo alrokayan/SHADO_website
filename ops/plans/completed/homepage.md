@@ -14,6 +14,6 @@ Evidence: Hugo 0.166.0 release build with warnings treated as errors; scripts/ch
 - Initial implementation: `0aa7054`. GitHub Actions run 35847643014 built and deployed successfully.
 - Live HTTP page returned 200. Chrome checks passed at 1440, 390 and 320 px: no horizontal overflow, broken images, failed assets or JavaScript errors; mobile menu, FAQ and reduced-motion handling passed.
 - Public DNS targets alrokayan.github.io. GitHub Pages source is workflow; custom domain remains shado.rv.sa.
-- HTTPS is externally pending: GitHub API returned `The certificate does not exist yet` when enabling HTTPS. No TLS verification bypass is used. Enable Enforce HTTPS once GitHub issues the certificate.
+- HTTPS initially waited for certificate issuance. GitHub subsequently approved the certificate for shado.rv.sa; HTTPS enforcement is now enabled and a certificate-verified HTTPS request returned 200. No TLS verification bypass was used.
 - Authenticated SSH was used to push because the existing HTTPS OAuth token lacks workflow scope. No credentials or Git configuration were changed.
 - Updated actions to current verified releases after the first deployment reported the Node 20 deprecation warning.
