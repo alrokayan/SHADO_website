@@ -1,18 +1,20 @@
 # SHADO website
 
-A single-page Hugo website for https://shado.rv.sa. Original design inspired by Langflow's dark visual language; no Langflow source, assets or commercial theme included.
+A Hugo product website for https://shado.rv.sa. Original design inspired by Langflow's dark visual language; no Langflow source, assets or commercial theme included.
 
 ## Edit content
 
 - `content/_index.md`: hero headline and introductory copy.
 - `data/home.yaml`: bridge descriptions, feature cards and FAQ.
+- `content/*.md`: Features, Deployment & Privacy, About & Contact, Support, Privacy Policy and Terms.
 - `layouts/home.html`: remaining homepage content and structure.
+- `layouts/baseof.html`, `layouts/partials/`, `layouts/page.html`: shared shell, navigation, footer and page layout.
 - `assets/css/main.css`: brand colors, responsive layouts and reduced-motion styles.
 - `assets/js/main.js`: accessible mobile navigation.
-- `hugo.toml`: canonical URL, SEO description and public contact email.
+- `hugo.toml`: canonical URL, dashboard login URL, SEO description and public contact email.
 - `static/images/`: product and brand images.
 
-Only the homepage is implemented. Navigation uses homepage anchors. No unavailable product download, privacy policy, support page, Arabic translation or customer claims are presented as published.
+Seven English pages are published. App Store and Play Store buttons intentionally link to `#` and are labelled Coming soon. Set `dashboardURL` in `hugo.toml` to change the login destination. Store links live in `layouts/partials/downloads.html`; replace the placeholders when approved listings exist. Arabic site translation is not yet implemented.
 
 ## Local development
 
@@ -44,6 +46,8 @@ The workflow uses GitHub's automatic token; no deployment secret or personal acc
 
 ## Assets and publication scope
 
-SHADO logo/symbol/social image: owner-provided branding pack, version 1.2.0. Dashboard and iPhone images: acquisition demonstration captures dated 2026-09-23, converted to WebP with metadata omitted. The mobile capture is an iPhone Simulator image. Diagrams are original conceptual illustrations, not screenshots or execution evidence. The contact address is the founder's public GitHub profile email.
+SHADO logo/symbol/social image: owner-provided branding pack, version 1.2.0. Dashboard image: acquisition demonstration capture dated 2026-09-23. Phone image: the branding pack’s genuine dark-mode iPhone Simulator tools capture dated 2026-09-22. Images are converted to WebP with metadata omitted. Founder portrait: owner-provided acquisition materials. Diagrams are original conceptual illustrations, not screenshots or execution evidence. The contact address is the founder's public GitHub profile email.
+
+Privacy and terms distinguish this static website from configured SHADO deployments. Reconcile these notices with the exact distributed app and enabled services before an App Store submission or managed-service launch; adding website pages alone does not implement in-app privacy links or account deletion.
 
 Local model deployment does not imply all integrations are offline, zero operating costs, or automatic government compliance. Copy distinguishes optional external services and illustrative use cases.

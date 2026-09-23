@@ -6,3 +6,4 @@ enableRobotsTXT = true
 [params]
   description = 'Self-hosted agentic AI for your files, tools and devices. Discover SHADO, with Arabic voice, desktop and mobile bridges, and an iPhone companion.'
   contactEmail = 'a@alrokayan.com'
+  dashboardURL = 'https://shado-host.golden-alpha.ts.net/login'

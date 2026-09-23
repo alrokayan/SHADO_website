@@ -1,0 +1,12 @@
+<div class="announcement">Your infrastructure. Your models. A new way to work. <a href="{{ "deployment/" | relURL }}">Meet self-hosted AI <span aria-hidden="true">↗</span></a></div>
+<header class="header wrap">
+<a href="{{ "/" | relURL }}" class="brand" aria-label="SHADO home"><img src="{{ "images/logo.svg" | relURL }}" width="144" height="40" alt="SHADO"></a>
+<button class="menu-toggle" aria-expanded="false" aria-controls="navigation">Menu <span aria-hidden="true">☰</span></button>
+<nav id="navigation" aria-label="Main navigation">
+{{ range slice (dict "url" "/features/" "label" "Features") (dict "url" "/deployment/" "label" "Self-hosted") (dict "url" "/about/" "label" "About") (dict "url" "/support/" "label" "Support") }}
+<a href="{{ .url | relURL }}" {{ if eq $.RelPermalink .url }}aria-current="page"{{ end }}>{{ .label }}</a>
+{{ end }}
+<a class="dashboard-mobile" href="{{ .Site.Params.dashboardURL }}">Dashboard <span aria-hidden="true">↗</span></a>
+</nav>
+<a class="button small header-cta" href="{{ .Site.Params.dashboardURL }}">Dashboard <span aria-hidden="true">↗</span></a>
+</header>
