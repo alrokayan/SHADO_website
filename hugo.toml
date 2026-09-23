@@ -1,0 +1,8 @@
+baseURL = 'https://shado.rv.sa/'
+locale = 'en'
+title = 'SHADO — Your AI. Your infrastructure.'
+disableKinds = ['taxonomy', 'term', 'RSS']
+enableRobotsTXT = true
+[params]
+  description = 'Self-hosted agentic AI for your files, tools and devices. Discover SHADO, with Arabic voice, desktop and mobile bridges, and an iPhone companion.'
+  contactEmail = 'a@alrokayan.com'

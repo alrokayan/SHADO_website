@@ -1,0 +1,39 @@
+capabilities:
+  - label: DesktopBridge
+    icon: desktop
+    title: Give your agent a desktop.
+    text: Connect to the host desktop, sandboxed applications or a remote desktop. Bring visual interaction into the same conversation.
+    tags: [Host desktop, Sandboxed apps, Remote connections]
+  - label: MobileBridge
+    icon: phone
+    title: Put mobile devices to work.
+    text: Connect supported Android devices and virtual devices for screen viewing and agent interaction. Manage the connection from SHADO.
+    tags: [Android devices, Virtual devices, Live screen feeds]
+features:
+  - icon: chat
+    title: A conversation that does more.
+    text: Streaming responses, multiple conversations, archives and role presets. Choose the tools your agent can use for the task.
+  - icon: voice
+    title: Arabic, spoken naturally.
+    text: Arabic speech, transcription and read-aloud. Bring voice into the way you interact with your assistant.
+  - icon: folder
+    title: Your files, in context.
+    text: Work with files and configure connections such as Nextcloud. Bring relevant information closer to the conversation.
+  - icon: tool
+    title: Add a new capability.
+    text: Extend SHADO with Python tools, MCP servers and skills. Discover integrations and select capabilities for each preset.
+  - icon: code
+    title: A place for your coding agent.
+    text: Move between the dashboard and VS Code. Give coding tasks a dedicated preset and the tools they need.
+  - icon: model
+    title: Choose how intelligence runs.
+    text: Use local models or configure cloud providers. Choose models and capabilities to suit the work and your deployment.
+faq:
+  - question: Does SHADO have to send my work to a cloud AI provider?
+    answer: No. SHADO supports local models on your infrastructure. If you enable an external model, search service or integration, the information needed for that request may leave your environment. Your model and integration configuration determines the data path.
+  - question: Is the iPhone app the same thing as MobileBridge?
+    answer: No. The iPhone app is a companion interface for connecting to your SHADO server. MobileBridge connects supported Android devices and virtual devices for viewing and interaction.
+  - question: What is needed for a self-hosted deployment?
+    answer: A SHADO server, suitable compute for your selected models, and network access for your clients. Hardware requirements depend on model size and workload. External providers and connected services require their own accounts and configuration.
+  - question: Can we evaluate SHADO for our organization?
+    answer: Yes. Start with a demonstration and a defined workflow. Deployment, access controls, integrations and suitability should be evaluated against your organization's requirements before operational use.
