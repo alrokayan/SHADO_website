@@ -35,4 +35,4 @@ External policy checked: https://docs.github.com/en/site-policy/privacy-policies
 
 ## Verification
 
-Release build, generated-page checks, responsive Chrome checks and published-site verification are required before closing this plan.
+Passed: Hugo release build with warnings treated as errors; generated-page validation; git diff whitespace check; all seven pages in real Chrome at 1440, 390 and 320 px, both locally and on https://shado.rv.sa/. Verified no announcement banner, no horizontal overflow, no broken images or script errors, working mobile navigation and placeholder store links. GitHub Pages run 35850348542 successfully deployed commit 78690d8. This is website validation and a source-grounded content review, not a new end-to-end certification of every SHADO capability.

@@ -12,3 +12,5 @@ Reuse the original homepage styling and extract shared page structure. Use an ex
 - Dark phone: genuine 2026-09-22 iPhone Simulator tools capture from owner-provided branding pack.
 - Dashboard destination: https://shado-host.golden-alpha.ts.net/login, confirmed HTTP 200 and title Sign in. A completed unauthenticated Chrome probe rendered the password sign-in form and backend/frontend/Tailscale/host status. No credentials were entered.
 - Privacy content distinguishes website hosting, direct inquiries and configured deployments; store links remain Not yet available placeholders.
+
+- Published HTTPS verification passed for all seven routes at three viewport widths after the content review; GitHub Pages run 35850348542 succeeded.
