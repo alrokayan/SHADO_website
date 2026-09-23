@@ -1,8 +1,10 @@
 ---
-title: A workspace. A world of capabilities.
-description: Bring conversations, files, tools and devices together—with local intelligence and an interface that follows your work.
+title: Chat, tools and device control.
+description: Explore SHADO’s current web, iPhone and VS Code interfaces, device bridges, connected files and model options.
 eyebrow: THE SHADO PLATFORM
 ---
+The capabilities below are implemented in the current platform. Availability in a particular installation depends on its models, connected services and device setup. Software access and demonstrations are arranged directly with the creator.
+
 ## Start with a conversation
 
 Ask a question, attach context, choose a role preset and get a streaming response. Keep several conversations available, return to earlier work and archive conversations when you're finished.
@@ -37,7 +39,7 @@ Connect to your SHADO server from your iPhone. Use conversations, switch presets
 
 {{< downloads >}}
 
-Store listings are coming soon. These buttons are placeholders and do not start a download.
+Public App Store and Play Store downloads are not available through this website. No release date is announced; these buttons do not start a download.
 
 ## Arabic voice and meetings
 
@@ -47,20 +49,20 @@ Use transcripts as working material for summaries, follow-up notes and further a
 
 ## Files and connected applications
 
-Work with files and configure integrations such as Nextcloud, email, calendars and cloud storage. Connected services need their own accounts, authorization and configuration.
+Browse workspace files and connected storage, including Nextcloud. App connectors provide access to configured email, calendar and storage services. They require separate accounts and authorization; showing an app in the catalog does not mean it is connected.
 
 A self-hosted SHADO server can still connect to an external service. Review the information each integration receives before using it with sensitive work.
 
 ## Tools, MCP and skills
 
-Extend the assistant with Python tools, MCP servers and skills. Discovery and installation interfaces help you find capabilities; presets determine which installed capabilities are available to the agent.
+Extend the assistant with Python tools, MCP servers and skills. Online search interfaces help you find MCP servers and skills; presets determine which installed capabilities are available to the agent.
 
 - **Python tools:** add a self-contained tool implemented in Python.
 - **MCP:** connect supported tool servers and their capabilities.
 - **Skills:** add task-specific instructions and resources.
 - **Presets:** combine a role, model and selected capabilities for a particular kind of work.
 
-Third-party extensions have their own dependencies, permissions and licenses. Installing an extension is a separate decision from authorizing it for a task.
+Third-party extensions have their own dependencies, permissions and licenses. Review an extension before installation and enable only the capabilities needed by the preset.
 
 ## Coding and model choice
 

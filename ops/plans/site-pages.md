@@ -10,5 +10,5 @@ Reuse the original homepage styling and extract shared page structure. Use an ex
 - Artifact checker covers all seven pages, local resources, cross-page anchors, headings, image alternative text, store placeholders and dashboard URL.
 - Real Chrome: seven pages at 1440, 390 and 320 px; no horizontal overflow, broken images, failed assets or JavaScript errors. Mobile navigation, FAQ and reduced motion checked.
 - Dark phone: genuine 2026-09-22 iPhone Simulator tools capture from owner-provided branding pack.
-- Dashboard destination: https://shado-host.golden-alpha.ts.net/login, confirmed HTTP 200 and title Sign in. Its separate application currently renders a loading state in the unauthenticated browser probe; no login or backend change was made.
-- Privacy content distinguishes website hosting, direct inquiries and configured deployments; store links remain Coming soon placeholders.
+- Dashboard destination: https://shado-host.golden-alpha.ts.net/login, confirmed HTTP 200 and title Sign in. A completed unauthenticated Chrome probe rendered the password sign-in form and backend/frontend/Tailscale/host status. No credentials were entered.
+- Privacy content distinguishes website hosting, direct inquiries and configured deployments; store links remain Not yet available placeholders.

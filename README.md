@@ -14,7 +14,7 @@ A Hugo product website for https://shado.rv.sa. Original design inspired by Lang
 - `hugo.toml`: canonical URL, dashboard login URL, SEO description and public contact email.
 - `static/images/`: product and brand images.
 
-Seven English pages are published. App Store and Play Store buttons intentionally link to `#` and are labelled Coming soon. Set `dashboardURL` in `hugo.toml` to change the login destination. Store links live in `layouts/partials/downloads.html`; replace the placeholders when approved listings exist. Arabic site translation is not yet implemented.
+Seven English pages are published. App Store and Play Store buttons intentionally link to `#` and are labelled Not yet available. Set `dashboardURL` in `hugo.toml` to change the login destination. Store links live in `layouts/partials/downloads.html`; replace the placeholders when approved listings exist. Arabic site translation is not yet implemented.
 
 ## Local development
 

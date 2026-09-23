@@ -25,7 +25,7 @@ If you email a demonstration request, support question or other inquiry, the rec
 
 Do not include passwords, API keys, pairing tokens or unnecessary personal or confidential information. You can request access, correction or deletion of correspondence by contacting the address above. Identity verification may be needed before acting on a request.
 
-Correspondence is retained for the inquiry and associated follow-up, and where needed for applicable recordkeeping or dispute handling. No fixed automatic deletion period is promised. Ask about retention for a particular inquiry if you need a specific arrangement.
+This website does not provide an automated email-retention or deletion service. To ask how an inquiry is retained or request its deletion, contact the creator directly.
 
 ## Information processed by SHADO software
 

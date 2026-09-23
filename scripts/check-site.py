@@ -26,7 +26,7 @@ class Page(HTMLParser):
             assert 'alt' in attrs, 'Image missing alternative text'
         if tag == 'a' and 'store-button' in attrs.get('class', '').split():
             assert attrs.get('href') == '#', 'Store link must remain a placeholder'
-            assert 'coming soon' in attrs.get('aria-label', '').lower()
+            assert 'not yet available' in attrs.get('aria-label', '').lower()
             self.stores += 1
         if tag == 'a' and attrs.get('href') == 'https://shado-host.golden-alpha.ts.net/login':
             self.dashboard += 1

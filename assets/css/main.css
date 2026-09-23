@@ -105,21 +105,6 @@ h3 {
   outline:2px solid var(--coral);
   outline-offset:6px
 }
-.announcement {
-  min-height:37px;
-  text-align:center;
-  padding:10px 20px;
-  background:linear-gradient(100deg,#d1eff2,#c7c0f8 55%,#cfe3ff);
-  color:#171722;
-  font-size:11px;
-  font-weight:500;
-  letter-spacing:.015em
-}
-.announcement a {
-  margin-left:18px;
-  text-decoration:underline;
-  text-underline-offset:3px
-}
 .header {
   height:104px;
   display:flex;
@@ -922,13 +907,6 @@ details>p {
 @media(max-width:760px) {
   .wrap {
     width:calc(100% - 40px)
-  }
-  .announcement {
-    font-size:10px
-  }
-  .announcement a {
-    display:block;
-    margin:3px 0 0
   }
   .header {
     height:85px;

@@ -1,5 +1,5 @@
 ---
-title: Let's get you connected.
+title: SHADO support and access.
 description: Setup guidance, common questions and a direct way to reach the SHADO creator.
 eyebrow: SUPPORT
 ---
@@ -11,7 +11,7 @@ Remove credentials and private content from screenshots or logs. Do not send you
 
 ## Open the dashboard
 
-The Dashboard button opens the connected SHADO dashboard. Access requires authorization; visiting this website does not create a dashboard account.
+The Dashboard button opens the creator’s SHADO sign-in page. Access requires authorization; visiting this website does not create a dashboard account.
 
 {{< dashboard >}}
 

@@ -3,5 +3,5 @@ title: Your AI. Your infrastructure.
 eyebrow: SELF-HOSTED. CONNECTED. YOURS.
 headline: Bring AI inside.
 headlineAccent: Let work flow.
-intro: An AI agent for your files, tools and devices. Run it on your infrastructure. Put it in your team's hands.
+intro: A self-hosted AI agent that connects conversations to your files, tools and devices. Use local models on your own infrastructure, with optional cloud providers.
 ---

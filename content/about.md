@@ -1,5 +1,5 @@
 ---
-title: Built from the inside out.
+title: About SHADO and its creator.
 description: SHADO is an independently developed platform by Dr. Mohammed S. Alrokayan, bringing self-hosted AI closer to everyday work.
 eyebrow: ABOUT & CONTACT
 ---
@@ -17,11 +17,9 @@ AI becomes useful when it can work with the context and tools a task requires. O
 
 SHADO brings those concerns together: a self-hosted server, a choice of models, role-based presets, connected capabilities and interfaces that make them accessible from a desk or a phone.
 
-The aim is practical: make it easier to move from asking a question to working with the right information and tools.
-
 ## Where the platform stands
 
-SHADO has been developed and used as a personal platform. Demonstrations on this website show product interfaces and selected capabilities; they are not customer testimonials or evidence of enterprise certification.
+SHADO has been developed and used as a personal platform. The creator reports no customers, revenue or signed customer commitments. Demonstrations on this website show product interfaces and selected capabilities; they are not customer testimonials or evidence of enterprise certification.
 
 Organizations can explore the current platform through a demonstration and a defined evaluation. Requirements for a production deployment, integration or commercial arrangement are discussed separately.
 

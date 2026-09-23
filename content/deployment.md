@@ -1,5 +1,5 @@
 ---
-title: Bring intelligence inside.
+title: Self-hosting and data control.
 description: Choose where SHADO runs, which models it uses and which services it can reach.
 eyebrow: DEPLOYMENT & DATA CONTROL
 ---
@@ -42,6 +42,8 @@ Voice processing can use different engines depending on configuration. Review sp
 The [Privacy Policy](/privacy/) explains the distinction between this public website, communication with the creator and a configured SHADO deployment.
 
 ## Government and enterprise evaluation
+
+For an agency that restricts public cloud AI, the evaluation starts with local inference and a review of every connected service. Role presets select agent behavior and tools; they should not be treated as an enterprise employee-permission system.
 
 Start with a bounded internal workflow, such as drafting from approved documents or preparing a research summary. Use representative information that is authorized for the evaluation.
 

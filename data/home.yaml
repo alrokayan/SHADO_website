@@ -11,22 +11,22 @@ capabilities:
     tags: [Android devices, Virtual devices, Live screen feeds]
 features:
   - icon: chat
-    title: A conversation that does more.
+    title: Chat and role presets.
     text: Streaming responses, multiple conversations, archives and role presets. Choose the tools your agent can use for the task.
   - icon: voice
-    title: Arabic, spoken naturally.
-    text: Arabic speech, transcription and read-aloud. Bring voice into the way you interact with your assistant.
+    title: Arabic speech and transcription.
+    text: Arabic chat, speech input and read-aloud, with NAMAA speech generation and Whisper transcription when installed.
   - icon: folder
-    title: Your files, in context.
-    text: Work with files and configure connections such as Nextcloud. Bring relevant information closer to the conversation.
+    title: Files and Nextcloud.
+    text: Browse workspace files and connected Nextcloud storage. Select files as task context; connected services require configuration.
   - icon: tool
-    title: Add a new capability.
-    text: Extend SHADO with Python tools, MCP servers and skills. Discover integrations and select capabilities for each preset.
+    title: Python tools, MCP and skills.
+    text: Install Python tools, search online for MCP servers and skills, and select installed capabilities for each preset.
   - icon: code
-    title: A place for your coding agent.
-    text: Move between the dashboard and VS Code. Give coding tasks a dedicated preset and the tools they need.
+    title: SHADO in VS Code.
+    text: Use the SHADO VS Code extension to chat with your configured server from the editor, with project context and role presets.
   - icon: model
-    title: Choose how intelligence runs.
+    title: Local and cloud models.
     text: Use local models or configure cloud providers. Choose models and capabilities to suit the work and your deployment.
 faq:
   - question: Does SHADO have to send my work to a cloud AI provider?
