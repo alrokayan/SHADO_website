@@ -1,4 +1,5 @@
 /public/
+/repos.env
 /resources/
 /.hugo_build.lock
 .hugo_cache/
